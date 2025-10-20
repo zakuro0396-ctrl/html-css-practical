@@ -1,0 +1,169 @@
+/*共通設定*/
+body {
+  font-family: 'Note Sans Japan';
+  width: 100%;
+  font-size: 18px;
+}
+
+header {
+  width: 780px;
+  margin: 0 auto 0 auto;
+  padding: 32px 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+header a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 34px;
+  color: #000000;
+}
+
+#logo {
+  border: solid 1px #000000;
+}
+
+#navigate ul {
+  display: flex;
+  margin: 0;
+}
+
+#navigate li {
+  list-style: none;
+  padding-right: 18px;
+}
+
+#main-visual img {
+  width: 100%;
+  height: auto;
+}
+
+.index-h2 {
+  text-align: center;
+  font-size: 34px;
+  margin-top: 70px;
+}
+
+.index-h3 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 1.5;
+}
+
+#about {
+  margin-bottom: 10px;
+}
+
+#profile {
+  display: flex;
+  justify-content: center;  
+  margin-top: 70px;
+}
+
+#profile img {
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+
+} 
+
+.profile-text {
+  display: inline-block;
+  margin-left: 100px;
+}
+
+.profile-text li {
+  margin-left: 14px;
+  text-align: left;
+  line-height: 1;
+}
+
+
+#works-div {
+  display: flex;
+  justify-content: center;
+}
+
+.works-date {
+  padding: 0 9px 0 9px;
+}
+
+.works-date > img {
+  width: 240px;
+  height: 178px;
+}
+.works-date > p {
+  width: 240px;
+}
+
+#copyright {
+  text-align: center;
+  margin-top: 70px;
+}
+
+@media screen and (max-width: 780px) {
+
+  header {
+    width: 100%;
+  }
+
+  header a {
+    font-size: 21px;
+  }
+  
+  .index-h2 {
+  font-size: 28px;
+  }
+
+
+
+  #profile {
+    flex-direction: column;
+  }
+
+  #profile > img {
+    margin: 0 auto 0 auto;
+
+  }
+
+  .profile-text {
+    margin: 0 auto 0 auto;
+    width: 300px;
+  }
+
+  .profile-text li {
+  margin-left: 0;
+}
+
+
+#works-div {
+  flex-direction: column;
+}
+
+.works-date {
+  margin: 0 auto 40px auto;
+}
+
+.works-date > img {
+  width: 355px;
+  height: 264px;
+}
+
+.works-date > p {
+  width: 345px;
+  text-align: center;
+  padding: 0 
+}
+
+
+#copyright {
+  margin-top: 30px;
+}
+
+}
