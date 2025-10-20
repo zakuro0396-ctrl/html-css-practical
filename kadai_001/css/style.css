@@ -1,8 +1,13 @@
 /*共通設定*/
+* {
+  box-sizing: border-box;
+}
 body {
   font-family: 'Note Sans Japan';
   width: 100%;
   font-size: 18px;
+  margin: 0;
+  padding: 0;
 }
 
 header {
@@ -87,19 +92,22 @@ p {
 
 #works-div {
   display: flex;
+  overflow-wrap: break-word;
   justify-content: center;
 }
 
 .works-date {
-  padding: 0 9px 0 9px;
+  margin: 0 9px 0 9px;
+  
 }
 
 .works-date > img {
-  width: 240px;
+  max-width: 240px;
   height: 178px;
 }
 .works-date > p {
   width: 240px;
+  
 }
 
 #copyright {
@@ -144,21 +152,27 @@ p {
 
 #works-div {
   flex-direction: column;
+  margin: 0;
+  align-content: center;
 }
 
 .works-date {
+  text-align: center;
   margin: 0 auto 40px auto;
 }
 
 .works-date > img {
-  width: 355px;
-  height: 264px;
+  width: 100%;
+  max-width: 355px;
+  height: auto;
+ 
+  
 }
 
 .works-date > p {
-  width: 345px;
-  text-align: center;
-  padding: 0 
+  width: 95%;
+  margin: 0 auto 0 auto;
+  
 }
 
 
